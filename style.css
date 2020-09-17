@@ -1,0 +1,161 @@
+                body {
+                    background-color: white;
+                    background-repeat: no-repeat;
+                    background-position: left;
+                    background-size: 100% 100%;
+                }
+                
+                h1 {
+                    padding-left: 33%;
+                    padding-top: 21px;
+                    background-color: rgb(56, 127, 233);
+                    border-right-color: tomato;
+                    color: rgb(204, 233, 229);
+                }
+                
+                .list {
+                    height: 20px;
+                    width: 100%;
+                    position: absolute;
+                    background-color: rgb(58, 102, 233);
+                    overflow: hidden;
+                    padding-left: 9px;
+                    padding-top: 10px;
+                    margin-left: 150px;
+                }
+                
+                .list a {
+                    padding: 25px 25px 10px 8px;
+                    color: ghostwhite;
+                    text-decoration: none;
+                }
+                
+                .list a:hover {
+                    background-color: black;
+                }
+                
+                ul {
+                    height: 3px;
+                    width: 100%;
+                    position: absolute;
+                    padding-left: 5px;
+                    padding-top: 20px;
+                    margin-top: 60px;
+                    margin-left: 150px;
+                    background-color: grey;
+                    list-style-type: none;
+                }
+                
+                a .dlist {
+                    padding: 25px 25px 10px 18px;
+                    font-size: 15px;
+                    margin-left: 0px;
+                    font-family: sans-serif;
+                    color: white;
+                    overflow: hidden;
+                    text-decoration: none;
+                    display: block;
+                }
+                
+                .navbar {
+                    height: 100%;
+                    width: 150px;
+                    position: absolute;
+                    background-color: rgb(56, 86, 218);
+                    overflow: hidden;
+                    padding-left: 0px;
+                    padding-top: 15px;
+                }
+                
+                .navbar a {
+                    padding: 25px 25px 10px 18px;
+                    font-size: 15px;
+                    margin-left: 0px;
+                    font-family: sans-serif;
+                    color: white;
+                    overflow: hidden;
+                    text-decoration: none;
+                    display: block;
+                }
+                
+                .navbar a:hover {
+                    background-color: rgb(12, 12, 11);
+                }
+                
+                .container {
+                    color: snow;
+                    font-family: 'Times New Roman', Times, serif;
+                    text-align: right;
+                    font-size: 12px;
+                    padding-right: 40PX;
+                }
+                
+                .loginimage {
+                    padding-top: 0%;
+                    text-align: center;
+                }
+                
+                img.face {
+                    width: 10%;
+                    border-radius: 20%;
+                }
+                
+                .loginform {
+                    padding-left: 35%;
+                }
+                
+                input[type=text],
+                input[type=password] {
+                    width: 50%;
+                    padding: 12px 20px;
+                    margin: 8px 0;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    box-sizing: border-box;
+                }
+                
+                input[type=button] {
+                    width: 50%;
+                    height: 5%;
+                    padding: 12px 20x;
+                    margin: 8px 0;
+                    display: inline-block;
+                    box-sizing: border-box;
+                    background-color: green;
+                    font-size: 18px;
+                }
+                
+                .login:hover {
+                    opacity: 0.8;
+                }
+                
+                .cancelblock {
+                    background-color: #f1f1f1;
+                    margin-right: 50%;
+                    padding: 16Px 8px;
+                }
+                
+                .cancelbtn {
+                    background-color: rgb(245, 78, 49);
+                    width: auto;
+                    padding: 8px 16px;
+                }
+                
+                .cancelbtn:hover {
+                    opacity: 0.8;
+                }
+                
+                span.psw {
+                    float: right;
+                    padding-left: 15%;
+                }
+                
+                .footer {
+                    position: fixed;
+                    color: white;
+                    width: 100%;
+                    background-color: rgb(59, 121, 236);
+                    text-align: center;
+                    bottom: 0px;
+                    left: 0px;
+                }
